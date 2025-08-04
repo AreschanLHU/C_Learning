@@ -1,1 +1,1 @@
-Stody C.
+Learn C.
