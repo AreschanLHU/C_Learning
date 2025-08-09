@@ -9,9 +9,9 @@ int main(){
         printf("Please enter your guess: ");
         scanf("%d", &guess);
         count += 1;
-        if(guess < answer){
+        if(guess > answer){
             printf("Too large!!\n");
-        }else if(guess > answer){
+        }else if(guess < answer){
             printf("Too small!!\n");
         }
     }
